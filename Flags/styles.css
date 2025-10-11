@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+.red {
+    background: rgb(142, 18, 18);
+    height: 100px;
+    margin-top: 10px;
+   
+}
+
+.blue {
+    background: rgb(12, 12, 101);
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.green {
+    background: rgb(4, 73, 4);
+    height: 100px;
+}
