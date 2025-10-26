@@ -7,10 +7,14 @@
     width: 300px;
     display: block;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
  .enter{
     width: 400px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
