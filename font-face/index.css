@@ -1,0 +1,8 @@
+@font-face {
+    src: url("Alienated.ttf");
+    font-family: Alienated;
+}
+
+h1 {
+    font-family: Alienated;
+}
