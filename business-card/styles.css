@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+}
+
+img {
+    border: 3px solid #003049;
+}
+
+.card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    text-align: center;
+    background-color: #eae2b7;
+    color: #003049;
+    border-bottom: #fcbf49 7px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px auto;
+    box-shadow: 3px 3px 3px;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+@keyframes fadeIn {
+    from {box-shadow: 0px 0px 0px;}
+    to {box-shadow: 3px 3px 3px;}
+}
+
+/*For remembrance, the margin auto works with display block elements.
+  Flex is treated as a block element*/
+
+.scam-Daniel {
+    width: 150px;
+}
+
+.blue-border {
+    border: 2px dotted blue;
+}
+

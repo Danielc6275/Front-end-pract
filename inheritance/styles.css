@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+article {
+    text-align: center;
+    richness: auto;
+    azimuth: left-side;
+    voice-family: male;
+    font-style: normal;
+}
