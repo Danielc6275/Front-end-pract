@@ -1,8 +1,8 @@
 @font-face {
-    src: url("Alienated.ttf");
-    font-family: Alienated;
+    src: url("Magnite.otf");
+    font-family: Magnite;
 }
 
 h1 {
-    font-family: Alienated;
+    font-family: Magnite;
 }
