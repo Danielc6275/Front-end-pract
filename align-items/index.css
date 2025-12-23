@@ -1,0 +1,40 @@
+.container {
+    border: 8px solid #016a26;
+    height: 360px;
+    /*
+    Challenge:
+    Follow my orders on where we should
+    leave our lab equipment!
+    
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+/* 
+- Justify content makes everything in the container class move horizontally.
+- Align items makes everything in the container class move vertically.
+    -- Align-items is responsible for an item stretching vertically.
+
+- When the flex-direction is set to column, the justify-content property will move items vertically.
+- When the flex-direction is set to row, the justify-content property will move items horizontally.
+*/
+
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+}
