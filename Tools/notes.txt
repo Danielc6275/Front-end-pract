@@ -1,0 +1,7 @@
+- The echo command can create files if they do not exist
+- The append operator (>>) can be used to avoid overwriting existing 
+  content in files
+
+Hello world!
+Welcome back!
+- You can add the content of one file into another file with cat file.txt next file.txt
