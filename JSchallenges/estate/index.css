@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.property-card {
+  background: white;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.property-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.property-details {
+  padding: 15px;
+}
+
+.price {
+  font-weight: bold;
+  color: green;
+}
+
+.size {
+  font-style: italic;
+  color: #555;
+}
